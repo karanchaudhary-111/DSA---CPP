@@ -8,7 +8,7 @@ using namespace std;
 bool containDup(vector<int> nums){
     int n = nums.size();
 
-    sort(nums.begin(), nums.end());
+    sort(nums.begin(), nums.end()); // sort in ascending order.
 
     int curr = nums[0];
 
